@@ -15,13 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -116,15 +109,28 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Web Developer",
+    company_name: "Freelance",
+    iconBg: "#E6DEDD",
+    date: "Apr 2021 - Present",
+    points: [
+      "Demonstrated expertise in building over 25 dynamic websites as a freelancer, utilizing React, and WordPress.",
+      "Designed visually appealing and user-friendly interface using Figma, translating client requirements into engaging digital experience.",
+      "Successfully fixed bugs, optimized SEO, and improved performance enhancing functionality and user experience.",
+      "Worked with diverse industries, spanning from medical to educational institutions, showcasing adaptability and proficiency in various domains.",
+      "Maintained a high level of client satisfaction through open communication and proactive problem-solving."
+    ],
+  },
+  {
     title: "Full-Stack Developer Intern",
-    company_name: "IBM",
+    company_name: "IBM Tech Grant",
     iconBg: "#383E56",
     date: "Jan 2021 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js, Spring Boot and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led a team of developers in desigining and building 20+ static and dynamic visually appealing websites, with a primary focus on back-end development using Spring Boot, Django, NodeJS and REST API.",
+      "Utilized Spring Boot and Nodejs to create robust and efficient back-end solutions, handling data processing, user authentication, REST API integrations, and developing performant and scalable server-side applications.",
+      "Leveraged GitHub as a central repository to store and manage code, facilitating version control, collaboration, and seamless integration with CI/CD pipelines for efficient development workflows.",
+      "Consecutively awarded “Best Team Lead” for motivating teams to achieve project goals (Spring & Fall 2022).",
     ],
   },
   {
@@ -133,9 +139,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2020 - Jan 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining applications using Swing and Java frameworks.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing responsive design and ensuring cross-platform compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -170,9 +176,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "biolinerx",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A visually appealing and user-friendly website for a biopharmaceutical company, built using React, SCSS, NodeJS, and MongoDB.",
     tags: [
       {
         name: "react",
@@ -183,54 +189,129 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS, SCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/biolinerx.png",
+    source_code_link: "https://bioline-rx-website-785368.netlify.app/",
+  },
+  {
+    name: "accent",
+    description:
+      "A visually appealing and user-friendly website for a biopharmaceutical company, built using wordpress, html, css, javascript and php",
+    tags: [
+      {
+        name: "wordpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: "/accent.png",
+    source_code_link: "https://develop--accent-tx-long-scroll-tall-tower.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "artbio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A visually appealing and user-friendly website for a biopharmaceutical company, built using wordpress, html, css, javascript and php",
+    tags: [
+      {
+        name: "wordpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/artbio.png",
+    source_code_link: "https://develop--artbio-steel-swordfish.netlify.app/",
+  },
+  {
+    name: "glossaPrep",
+    description:
+      "A visually appealing and user-friendly website educational consultancy of Nepal, built using React, Tailwind CSS, NodeJS, and MongoDB.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "/glossa.png",
+    source_code_link: "https://develop--glossaprep.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Dtx Pharma",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A visually appealing and user-friendly website for a biopharmaceutical company, built using React, SCSS, NodeJS, and MongoDB.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS, SCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/dtx.png",
+    source_code_link: "https://staging--dtxpharma-3224ad.netlify.app/",
+  },
+  {
+    name: "Averitas Pharma",
+    description:
+      "A visually appealing and user-friendly website for a biopharmaceutical company, built using wordpress, html, css, javascript and php",
+    tags: [
+      {
+        name: "wordpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "/averitas.png",
+    source_code_link: "https://develop--loyal-neptune-unbranded-0f6861.netlify.app/",
   },
 ];
 
